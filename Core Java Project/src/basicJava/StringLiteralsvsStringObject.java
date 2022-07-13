@@ -12,7 +12,7 @@ public class StringLiteralsvsStringObject {
 		System.out.println(str1==str2); // false
 		System.out.println(str1.equals(str2)); // true
 		
-		//by new keyword we are providing the space/location into the heap memory
+		//by new keyword we are providing the space/location into the Heap Memory
 		
 		
 	}
