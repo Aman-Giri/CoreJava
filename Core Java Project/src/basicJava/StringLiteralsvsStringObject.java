@@ -2,6 +2,8 @@ package basicJava;
 
 public class StringLiteralsvsStringObject {
 	public static void main(String[] args) {
+		//STRING LITERALS VS STRING OBJECTS
+		
 		String str1 = "Aman"; //String Literal
 		String str2 = new String("Aman"); // String Object
 		String str3 = "Aman";
