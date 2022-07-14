@@ -1,4 +1,5 @@
 package oopsByAK;
+	//OBJECT AND CLASSES WITH THE THIS KEYWORD
 
 class Pen {
 	String color;
