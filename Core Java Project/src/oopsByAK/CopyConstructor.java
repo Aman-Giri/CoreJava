@@ -11,7 +11,7 @@ class Student3{
 		System.out.println(this.age);
 	}
 	
-	Student3(Student3 s2){ //copy constructor
+	Student3(Student3 s2){ //copy Constructor
 		this.name = s2.name;
 		this.age = s2.age;
 	}

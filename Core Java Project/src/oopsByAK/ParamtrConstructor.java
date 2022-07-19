@@ -9,7 +9,7 @@ class Student2{
 		System.out.println(this.age);
 	}
 	
-	Student2(String name,int age){
+	Student2(String name,int age){ // Paramterised constructor
 		this.name = name;
 		this.age = age;
 	}
