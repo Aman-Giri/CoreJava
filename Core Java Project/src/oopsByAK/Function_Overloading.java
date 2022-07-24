@@ -3,8 +3,8 @@ package oopsByAK;
 //POLYMORPHISM
 //Function Overloading : Compile time polymorphism
 //We can achieve function overloading in java by two steps : 
-//1.By changing number of arguments
-//2.By changing the data type
+//1.By changing number of arguments.
+//2.By changing the data type.
 
 class Student5{
 	String name;
