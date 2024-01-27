@@ -1,15 +1,12 @@
 package Basics;
 
 public class VariablesandMethods {
-
-
-    
-
+   
      static int a = 12;
      static String name = "Aman";
 
      //Lets Create the Method
-     public static void getdata(){
+     public void getdata(){
         System.out.println("I am in the method");
      }
     
@@ -19,8 +16,8 @@ public class VariablesandMethods {
         System.out.println(a);
         System.out.println(name);
         
-       //VariablesandMethods obj = new VariablesandMethods();
-      // getdata();
-       VariablesandMethods.getdata();
+       VariablesandMethods obj = new VariablesandMethods();
+      obj.getdata();
+      //  VariablesandMethods.getdata();
     }
 }

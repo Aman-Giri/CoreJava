@@ -1,4 +1,4 @@
-package Basics;
+package Arrays;
 
 public class ArraysConcepts {
     public static void main(String[] args) {
