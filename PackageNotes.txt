@@ -1,0 +1,11 @@
+Packages: Set of Classes and Interfaces.
+java.lang: Default Package
+java.io: Package for file reading
+java.util: Package for collection interfaces
+We can also make User defined Packages
+
+Note: 
+Class A can use class B directly by creating the object if both class A and class B 
+are inside the same package. And if class A and class B are in different packages then
+we have to import the package of either class A in class B or class B in class A based 
+on the Object creation 

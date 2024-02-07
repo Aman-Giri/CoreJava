@@ -1,0 +1,15 @@
+What are Streams?
+Stream API is new feature available from java 8
+By using streams, we can perform various aggregate operations on the data returned from collections classes by drastically reduce the complexity of code
+What is Lambda Expression?
+Lambda expressions introduce the new arrow operator → into Java. It divides the lambda expressions in two parts:
+The left side specifies the parameters required by the expression, which could also be empty if no parameters are required.
+The right side is the lambda body which specifies the actions of the lambda expression.
+
+
+The working of stream can be explained in three stages:
+1. Create a stream
+2. Perform intermediate operations on the initial stream to transform it into another stream and so on on further intermediate operations
+3. Perform terminal operation on the final stream to get the result.
+An important characteristic of intermediate operations is laziness.
+When executing this code snippet, nothing is printed to the console. That is because intermediate operations will only be executed when a terminal operation is present.

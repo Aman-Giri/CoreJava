@@ -1,0 +1,4 @@
+1. FINAL VS FINALLY VS FINALIZE
+final is a keyword used in Java to restrict the modification of a variable, method, or class. 
+finally is a block used in Java to ensure that a section of code is always executed, even if an exception is thrown. 
+finalize is a method in Java used to perform cleanup processing on an object before it is garbage collected.
