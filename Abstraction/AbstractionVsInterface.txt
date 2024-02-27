@@ -27,4 +27,4 @@ keyword
 Abstract Class:
 1) Abstract class can contain abstract methods, concrete methods or both
 2) Except private we can have any access specifier for methods in abstract class.
-3) Except private variables can have any access specifiers
+3) Except private variables can have any access specifiers 
