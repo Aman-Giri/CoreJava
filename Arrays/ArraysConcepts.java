@@ -11,7 +11,7 @@ public class ArraysConcepts {
         //for loop for printing all the elements of the array
 
         for(int i=0;i<numbers.length;i++){
-            System.out.println(numbers[i]);;
+            System.out.println(numbers[i]);
         }
 
     }

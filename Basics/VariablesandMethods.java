@@ -18,6 +18,6 @@ public class VariablesandMethods {
         
        VariablesandMethods obj = new VariablesandMethods();
       obj.getdata();
-      //  VariablesandMethods.getdata();
+      //VariablesandMethods.getdata();
     }
 }

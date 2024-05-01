@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class ArraylistExample {
     // can accept duplicate values
-    //ArraList,LinkedList,vector- Implementing List interface
-    //array have fixed size where as arraylist can grow dynamicaly
+    //ArrayList,LinkedList,vector- Implementing List interface
+    //array have fixed size where as arraylist can grow dynamically
     //you can access and insert any value in any index
 
     public static void main(String[] args) {

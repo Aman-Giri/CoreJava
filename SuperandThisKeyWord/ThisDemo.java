@@ -2,7 +2,6 @@ package SuperandThisKeyWord;
 
 public class ThisDemo {
     int a =2;
-
     public void getData(){
         int a = 3;
         int c = a + this.a;

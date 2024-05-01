@@ -10,7 +10,7 @@ public class ChildDemo extends ParentDemo {
 
      //Constructor
      public ChildDemo(){
-        super(); //this should be always in first line
+        super(); //this should be always in first line inside the constructor
         System.out.println("Child class constructor");
      }
 
@@ -21,8 +21,8 @@ public class ChildDemo extends ParentDemo {
 
     public static void main(String[] args) {
         ChildDemo cd = new ChildDemo();
-        cd.getStringdata();
-        cd.getData();
+         cd.getStringdata();
+         cd.getData();
         
     }
 }
