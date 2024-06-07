@@ -6,7 +6,7 @@ public class OverloadingConcepts {
 //argument data type should be different
 
 public void getdata(String a){
-    System.out.println("The Strig Value is: "+ a);
+    System.out.println("The String Value is: "+ a);
 }
 
 public void getdata(int b){
@@ -18,6 +18,5 @@ public static void main(String[] args) {
     obj.getdata("Aman and Mukul");
     obj.getdata(25);
 }
-
 
 }

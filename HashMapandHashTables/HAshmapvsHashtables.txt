@@ -1,0 +1,3 @@
+Hashmap and hashtable both are used to store the key value pair and also the their initialisation is same. But Hashtable 
+is synchronised(or thread safe) in nature and there for its used to acheive multi thread also whereas hashmap is non synchronised
+and not thread safe and to acheive synchronisation we can use concurrent hashmap 
