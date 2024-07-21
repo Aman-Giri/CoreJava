@@ -1,4 +1,4 @@
 1. FINAL VS FINALLY VS FINALIZE
 final is a keyword used in Java to restrict the modification of a variable, method, or class. 
-finally is a block used in Java to ensure that a section of code is always executed, even if an exception is thrown. 
+finally is a block used in Java to ensure that a section of code is always executed, even if an exception is thrown or not
 Finalise Method: This method can be used to perform any necessary cleanup before the object is destroyed
