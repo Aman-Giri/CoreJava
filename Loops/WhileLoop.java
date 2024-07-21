@@ -6,7 +6,7 @@ public class WhileLoop {
         int i=0; // Initialisation
         while(i<10){ // Condition
             System.out.println(i); // Print stmt
-            i++; // Condition
+            i++; // operator
         }
     }
 }
