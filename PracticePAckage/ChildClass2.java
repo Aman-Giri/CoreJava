@@ -7,6 +7,8 @@ public class ChildClass2 extends AbstractionConcepts{
         int mymulti = obj.multiply(4,100);
 
         System.out.println(mysum + " " + mymulti);
+
+        //AbstractionConcepts obj1 = new AbstractionConcepts(); // we cannot create the object of Abstract class
     }
 
     @Override

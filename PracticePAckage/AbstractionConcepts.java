@@ -11,6 +11,10 @@ public abstract class AbstractionConcepts {
 
     public abstract int multiply(int a, int b);//abstract method: methods which do not has any implementation/body
 
+    public static void main(String[] args) {
+        //AbstractionConcepts obj = new AbstractionConcepts();// we cannot create the object of Abstract class
+    }
+
         
     
 
