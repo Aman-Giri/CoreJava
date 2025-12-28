@@ -13,7 +13,7 @@ All Child classes (Different Aircraft companies) have to inherit parent class an
 But there is a method called Aircraft color which can be unique to every child class depending on their company logo
 So, color method in parent class is not implemented with anybody. Instead only method is defined with out any body which we call as Abstract method
 If there is any method in class which is Abstract, then the class will be treated as Abstract class
-Unlike Interfaces, this Abstract Class can have methods (Concrete) which have implementation as well. So, with Abstract class only partial Abstraction is acheived.
+Unlike Interfaces, this Abstract Class can have methods (Concrete) which have implementation as well. So, with Abstract class only partial Abstraction  is acheived.
 
 We cannot instantiate object for Abstract class. Child classes are forced to implement Abstract methods of Parent class.
 

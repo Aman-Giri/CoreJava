@@ -17,6 +17,9 @@ public class ChildClass extends ParentClass {
 
     public static void main(String[] args) {
         ChildClass cd = new ChildClass();
+        String col = cd.color; // this will give error untill we assign it to a variable
+        col = "blue";
+        System.out.println("the color is: " + col);
         cd.engine();
         cd.colour();
         cd.Gear();
@@ -39,17 +42,23 @@ public class ChildClass extends ParentClass {
         cd2.audioSystem();
         cd2.brakes();
 
-        //this is not possible bcz: you are trying to assign an instance of the parent class (ParentClass) to a 
-        ///variable of the child class type (ChildClass) without explicit casting.
+        //You are trying to store a Parent object in a Child reference — not allowed.
         //ChildClass cd4 = new ParentClass();
 
-        
+        //This is allowed bcz you are forcing Java to believe:
+        //“Trust me, this Parent object is actually a Child.”
+        //it will pass at compile time but it will fail at runtime
+        //ChildClass cd4 = (ChildClass) new ParentClass();
 
 
-        
-        
-        
-        
-        
+
+
+
+
+
+
+
+
+
     }
 }
